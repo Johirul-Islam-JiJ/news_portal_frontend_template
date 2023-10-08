@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>আওয়ার বাংলাদেশ || সংবাদপত্র</title>
+        <!-- link shortcut -->
+        <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
+        <!-- bootstarp link -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <!-- slick slider -->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <!-- splide js -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+        <!-- css file link -->
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+
+    <body>
+        
+        <!-- header section -->
+        <header class="header__section">
+            <!-- notice -->
+            <div class="notice">
+                <div class="container">
+                    <div class="notice_text">
+                        <!-- notice text title -->
+                        <p class="notice_text_title">শিরোনাম</p>
+                        <!-- notice text block -->
+                        <marquee class="d-block" onmouseover="this.stop();" onmouseout="this.start();">
+                            <p class="d-inline-block"> <span></span> ডেঙ্গুর ভয়াবহ দিক শক সিনড্রোম ও হেমোরেজিক</p>
+                            <p class="d-inline-block"> <span></span>  শিক্ষাপ্রতিষ্ঠানে গ্রীষ্মকালীন ছুটি বাতিল ডেঙ্গুর ভয়াবহ দিক শক সিনড্রোম ও হেমোরেজিক  শিক্ষাপ্রতিষ্ঠানে গ্রীষ্মকালীন ছুটি বাতিল</p>
+                            <p class="d-inline-block"> <span></span> বিদেশিরা সম্পর্কোন্নয়নের কথা বলে গায়ে পড়ে প্রশ্ন করেন: পররাষ্ট্রমন্ত্রী</p>
+                            <p class="d-inline-block"> <span></span> আমরা ক্ষমতায়, আমাদের শান্ত থাকতে হবে: ওবায়দুল কাদের</p>
+                            <p class="d-inline-block"> <span></span> শিগগির নির্বাচনের ঘোষণা দেবে ইসি, প্রস্তুতি নেন: নেতাকর্মীদের স্বরাষ্ট্রমন্ত্রী</p>
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+            <!-- top header -->
+            <div class="top_header">
+                <div class="container">
+                    <!-- header wrapper -->
+                    <div class="d-flex align-items-center justify-content-between flex-wrap">
+                        <!-- header logo -->
+                        <div class="header_logo">
+                            <a href="./index.html">
+                                <img src="assets/image/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <!-- header right -->
+                        <div class="header_right">
+                            <!-- header social -->
+                            <div class="header_social">
+                                <ul class="d-flex align-items-center justify-content-start justify-content-sm-end flex-wrap">
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">|</a>
+                                    </li>
+                                    <li>
+                                        <!-- epaper -->
+                                        <div class="epaper_link">
+                                            <a href="#"><span><i class="fa-solid fa-newspaper"></i></span>ইপেপার</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+    
+                            <!-- header list -->
+                            <ul class="d-flex justify-content-end gap-4 flex-wrap header_menu_list">
+                                <li>
+                                    <a href="./search.html"> <span><i class="fa-solid fa-coins"></i></span> আর্কাইভ</a>
+                                </li>
+                                <li>
+                                    <a href="#photo"> <span><i class="fa-solid fa-photo-film"></i></span> ফটো গ্যালারি</a>
+                                </li>
+
+                                <li>
+                                    <a href="#video"> <span><i class="fa-solid fa-video"></i></span> ভিডিও</a>
+                                </li> 
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header nav -->
+            <div class="header_nav">
+                <div class="container">
+                    <nav class="nav_area position-relative">
+                        <!-- search btn -->
+                        <button class="btn_main nav__search" id="search_btn">
+                            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button>
+                        <!-- search form -->
+                        <form action="" class="search_form" id="search_form">
+                            <input type="search" class="input_control" placeholder="Enter search key">
+                        </form>
+                        <!-- nav -->
+                        <ul class="nav_lsit d-none d-lg-flex align-items-center justify-content-between">
+                            <li>
+                                <a href="./category.html"><i class="fa-solid fa-house fw-normal"></i></a>
+                            </li>
+                            <li>
+                                <a href="./category.html">আজকের সব খবর</a>
+                            </li>
+                            <li>
+                                <a href="./details.html">দেশ সংবাদ  <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <!-- sub nav -->
+                                <div class="sub_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="./category.html">ঢাকা</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">চট্টগ্রাম</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">বরিশাল</a>
+                                        </li>
+                                        <li>
+                                            <a href="./category.html">ময়মনসিংহ</a>
+                                        </li>
+                                        <li>
+                                            <a href="./category.html">সিলেট</a>
+                                        </li>
+                                        <li>
+                                            <a href="./category.html">রংপুর</a>
+                                        </li>
+                                        <li>
+                                            <a href="./category.html">রাজশাহী</a>
+                                        </li>
+                                        <li>
+                                            <a href="./category.html">খুলনা</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./category.html">জাতীয়</a>
+                            </li> 
+                            <li>
+                                <a href="./category.html">আন্তর্জাতিক <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <!-- sub nav -->
+                                <div class="sub_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="./category.html">ভারত</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">পাকিস্তান</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">চীন</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">যুক্তরাষ্ট্র</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">আরব</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">এশিয়া</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">ইউরোপ</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">আফ্রিকা</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">ঢাকা</a>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./category.html">রাজনীতি</a>
+                            </li>
+                            <li>
+                                <a href="./category.html">খেলাধুলা <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <!-- sub nav -->
+                                <div class="sub_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="./category.html">ফুটবল</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">ক্রিকেট</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">টেনিস</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">অন্য খেলা</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">ফ্রি হিট</a>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./category.html">অর্থনীতি <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <!-- sub nav -->
+                                <div class="sub_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="./category.html">করপোরেট</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">নতুন উদ্যোগ</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">শেয়ারবাজার</a>
+                                        </li> 
+                                        <li>
+                                            <a href="./category.html">আর্থিক প্রতিষ্ঠান</a>
+                                        </li> 
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./category.html">স্বাস্থ্য</a>
+                            </li>
+                            <li>
+                                <a href="./category.html">বিনোদন <span><i class="fw-normal fa-solid fa-caret-down"></i></span></a>
+                                <!-- sub nav -->
+                                <div class="sub_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="./category.html">সিনেমা</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">বলিউড</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">দক্ষিণের সিনেমা</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">গান</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">হলিউড</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">টেলিভিশন</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">সিরিয়াল</a>
+                                        </li>  
+                                        <li>
+                                            <a href="./category.html">লোক-সংস্কৃতি</a>
+                                        </li>  
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="./category.html">প্রযুক্তি</a>
+                            </li>
+                        </ul>
+                        <!-- toggler icon -->
+                        <div class="toggler_icon d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#tbdMobile">
+                            <span><i class="fa-solid fa-bars"></i></span>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- mobile nav -->
+            <div class="offcanvas offcanvas-start" id="tbdMobile">
+                <!-- offcanvas header -->
+                <div class="offcanvas-header">
+                    <div class="nav_logo">
+                        <a href="./index.html">
+                            <img src="assets/image/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <button type="button btn" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <!-- offcanvas body -->
+                <div class="offcanvas-body">
+                    <div class="mobile_nav">
+                        <ul>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>হোম</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./index.html">
+                                    <p class="d-flex gap-2">
+                                        <span>আজকের সব খবর</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>দেশ সংবাদ</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ঢাকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চট্টগ্রাম</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বরিশাল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ময়মনসিংহ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিলেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রংপুর</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">রাজশাহী</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">খুলনা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a data-bs-target="#visa__info" data-bs-toggle="modal">
+                                    <p class="d-flex gap-2">
+                                        <span>জাতীয়</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>আন্তর্জাতিক</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ভারত</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">পাকিস্তান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">চীন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">যুক্তরাষ্ট্র</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">এশিয়া</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ইউরোপ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আফ্রিকা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>রাজনীতি</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>খেলাধুলা</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফুটবল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ক্রিকেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেনিস</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">অন্য খেলা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">ফ্রি হিট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>অর্থনীতি</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">করপোরেট</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">নতুন উদ্যোগ</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">শেয়ারবাজার</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">আর্থিক প্রতিষ্ঠান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>স্বাস্থ্য</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <!-- item -->
+                            <li>                          
+                                <a class="dropdown_button">
+                                    <p class="d-flex gap-2">
+                                        <span>বিনোদন</span>
+                                    </p>
+                                    <span><i class="fa-solid fa-chevron-down"></i></span>
+                                </a>
+                                <!-- mobile sub nav -->
+                                <div class="mobile_suv_nav dropdown_sub">
+                                    <ul>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিনেমা</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">বলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">গান</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">হলিউড</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">টেলিভিশন</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">সিরিয়াল</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                        <!-- Sub Nav list -->
+                                        <li>
+                                            <a href="./index.html">
+                                                <p class="d-flex gap-2">
+                                                    <span class="subnav_text">লোক-সংস্কৃতি</span>
+                                                </p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- item -->
+                            <li>
+                                <a href="./tourlist.html">
+                                    <p class="d-flex gap-2">
+                                        <span>প্রযুক্তি</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header section end -->
+        
+        <!-- main -->
+        <main class="main">
+            <!-- privecy page -->
+            <div class="privecy_page">
+                <!-- page breadcumb -->
+                <div class="page_breadcumb section_padding">
+                    <div class="container">
+                        <!-- title -->
+                        <h2 class="page_breadcumb_text">নীতিমালা শর্তাবলী</h2>
+                    </div>
+                </div>
+                <!-- bangla content -->
+                <div class="section_padding">
+                    <!-- container -->
+                    <div class="container">
+                        <!-- details text -->
+                        <div class="content__block">
+                            <!-- title -->
+                            <h3 class="content__block_title">বিধিনিষেধ ও শর্তাবলি</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর ওয়েবসাইট, অ্যাপ্লিকেশন, কনটেন্ট ও পরিষেবা গ্রহণের জন্য আমরা পাঠক ও দর্শকদের নিয়মাবলি মেনে চলার অনুরোধ করছি। আপনি চাইলে একাধিক চ্যানেল ব্যবহার করে বিভিন্ন উপায়ে আমাদের ওয়েবসাইটে প্রবেশ করতে পারবেন। world-wide-web [www.ourbangladesh.com] ছাড়াও ডিজিটাল ও সামাজিক প্ল্যাটফর্ম, এসএমএস, আরএসএস ফিডসসহ একাধিক ডিভাইস ব্যবহার করে ওয়েবসাইটে প্রবেশ করতে পারবেন; যা শুধু কম্পিউটার, মোবাইল ফোন ও পিডিএর মধ্যেই সীমাবদ্ধ নয়। পাঠক বা দর্শকদের আমাদের লিখিত কনটেন্ট, ছবিসহ সব পরিষেবা গ্রহণের জন্য আওয়ার বাংলাদেশ ব্যবহারের গোপনীয়তার নীতিসহ আমাদের ‘শর্তাবলি’ মেনে চলতে হবে। আওয়ার বাংলাদেশ ব্যবহারের ‘শর্তাবলি’ বা গোপনীয়তার নীতির কোনো বিষয়ে কারও আপত্তি থাকলে আওয়ার বাংলাদেশর কাছে ই-মেইল [info@ourbangladesh.com] পাঠিয়ে বিষয়টি উত্থাপন করতে পারেন। তবে আওয়ার বাংলাদেশ যেকোনো আপত্তি গ্রহণ বা অস্বীকারের পূর্ণ অধিকার সংরক্ষণ করে। আওয়ার বাংলাদেশর সব ব্যবহারকারীকে এই ‘শর্ত ও ব্যবহারবিধি’ মেনে চলতে হবে। কেউ এই শর্তাবলি মেনে চলতে ব্যর্থ হলে তাঁর অ্যাকাউন্ট স্থগিত বা ওয়েবসাইটে প্রবেশে নিষেধাজ্ঞা আরোপ হতে পারে। আওয়ার বাংলাদেশর ওয়েবসাইটে প্রবেশ এবং আওয়ার বাংলাদেশর অ্যাপ্লিকেশন ব্যবহার করে দর্শক/ পাঠকেরা আওয়ার বাংলাদেশ থেকে সেবা পেয়েছেন বলে মনে করছি। এই পরিষেবাগুলোর মধ্যে লিখিত, অডিও, ভিডিও, ছবি, সফটওয়্যার ইত্যাদি অন্তর্ভুক্ত রয়েছে।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ক. মেধাস্বত্ব অধিকার</h3>
+                            <!-- text -->
+                            <p class="content__block_text">পত্রিকার নাম, কনটেন্ট, লোগো, কপিরাইট, ট্রেডমার্কস, পেটেন্টস, চিত্র, পাঠ্য, গ্রাফিকস, ডোমেইনের নাম, অডিও, ভিডিওসহ অন্য সবকিছু আওয়ার বাংলাদেশর লাইসেন্সের অন্তর্ভুক্ত। বাণিজ্যিক বা যেকোনো ব্যবহারের জন্য কোনো ব্যবহারকারী আমাদের লাইসেন্সকৃত এই সম্পত্তিতে কোনো দাবি করতে পারবেন না। আওয়ার বাংলাদেশ থেকে কোনো কিছু কপি করতে নিরুৎসাহিত করা হচ্ছে। একই সঙ্গে আমাদের যেকোনো কনটেন্ট ব্যবহার করে অন্য কিছু তৈরি থেকেও নিরুৎসাহিত করা হচ্ছে। কপিরাইট লঙ্ঘন বা আওয়ার বাংলাদেশর মেধাস্বত্বের আওতাধীন যেকোনো সম্পদের ব্যবহার কোথাও হতে দেখলে যেকোনো ব্যবহারকারী চাইলে (info@ourbangladesh.com) ঠিকানায় জানাতে পারবেন।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">খ. আমাদের পরিষেবাগুলোর ব্যবহার</h3>
+                            <!-- text -->
+                            <p class="content__block_text">সাইটের দর্শনার্থী/ পাঠকদের কেবল বৈধ কাজে এবং কেবল পাঠের উদ্দেশ্যে আওয়ার বাংলাদেশর পরিষেবাগুলো ব্যবহার করা উচিত। ওয়েবসাইট বা অ্যাপ্লিকেশনে থাকা অডিও ও ভিজ্যুয়াল উপাদানগুলো কেবল শোনা ও দেখার জন্যই ব্যবহার করা যাবে। আওয়ার বাংলাদেশয় প্রকাশিত কনটেন্ট সামাজিক যোগাযোগমাধ্যমে পাঠকদের নিজ প্রোফাইল, গ্রুপ, পেজ বা সংশ্লিষ্ট বিভিন্ন প্ল্যাটফর্মে শেয়ার করতে আমরা উৎসাহিত করছি। তবে আমাদের পরিষেবার আওতায় থাকা বিভিন্ন কনটেন্ট অবশ্যই কোনো ব্যক্তি বা প্রতিষ্ঠানের সঙ্গে বা অন্য কোনো ডিজিটাল প্ল্যাটফর্মের সঙ্গে হুবহু বা পরিবর্তন করে শেয়ার করা যাবে না। দর্শনার্থী/ পাঠকেরা ওয়েবসাইট হ্যাক করতে বা আমাদের কনটেন্ট সুরক্ষা ব্যবস্থা পেতে চেষ্টা করলে তা অবৈধ হবে। ব্যক্তি বা বাণিজ্যিক প্রতিষ্ঠান-নির্বিশেষে ব্যবহারকারীদের কেবল পরিষেবাগুলো অবাণিজ্যিক উদ্দেশ্যে ব্যবহার করতে হবে। আমরা আমাদের ব্যবহারকারীদের কেবল আমাদের নিম্নোক্ত পরিষেবা ও মেধাস্বত্বের আওতাধীন বিষয়গুলো ব্যবহারের জন্য অনুমতি দিই: যেকোনো কনটেন্ট ব্যবহারকারীর ব্যক্তিগত বা অবাণিজ্যিক উদ্দেশ্যে ব্যবহার করা যাবে; ব্যবহারকারীরা অবশ্যই যেকোনো বাণিজ্যিক উদ্দেশ্যে আমাদের কনটেন্ট ব্যবহার বা বিক্রি বা অন্য কোনো ব্যবহার করতে পারবেন না (অবশ্য এটি কোনো ব্যক্তির দ্বারা সৃষ্ট কনটেন্ট, যার মেধাস্বত্ব ওই ব্যক্তিরই, তার ক্ষেত্রে প্রযোজ্য হবে না); আওয়ার বাংলাদেশয় প্রকাশিত কনটেন্টকে লক্ষ্য করে ব্যবহারকারী ও পাঠকদের কোনো আগ্রাসী, উসকানিমূলক বা আপত্তিকর ভাষা, ছবি বা মন্তব্য ব্যবহার করা উচিত নয়।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">গ. কনটেন্ট অপসারণ</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশন থেকে যেকোনো সময় তার যেকোনো কনটেন্ট সরিয়ে ফেলার অধিকার রয়েছে। দর্শক/ পাঠকেরা আওয়ার বাংলাদেশর অনুরোধে তাঁদের নিজ নিজ ডিভাইস থেকে সংশ্লিষ্ট কনটেন্ট, গেমস বা অ্যাপ্লিকেশনগুলো সরিয়ে দিতে অস্বীকার করতে পারবেন না। এটা তখনই ঘটবে, যখন আওয়ার বাংলাদেশ বা তার কোনো সেবা বন্ধ করা হবে।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঘ. অননুমোদিত ও নিষিদ্ধ কার্যক্রম</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশকে বিশেষত কোনো রাজনৈতিক দল, বর্ণবাদ ও লৈঙ্গিক বৈষম্যের সঙ্গে যুক্ত কোনো বিষয়ের সঙ্গে যুক্ত করতে পারবেন না কোনো ব্যবহারকারী, যাতে আওয়ার বাংলাদেশর সুনাম ক্ষুণ্ন হয়। আওয়ার বাংলাদেশ বা অন্য কোনো ব্যক্তি বা সত্তাকে অপমান করা বা সম্মানহানি করা অথবা আদালতের কার্যক্রম নিয়ে মন্তব্য করা (যা আদালত অবমাননার পর্যায়ে পড়ে) থেকে বিরত থাকতে হবে ব্যবহারকারীদের। কোনো ব্যবহারকারীকে হয়রানি, হুমকি দেওয়া বা বিপর্যস্ত করা কঠোরভাবে নিষিদ্ধ। ব্যবহারকারী অবশ্যই আপত্তিজনক বা অস্পষ্ট বা অনৈতিক—এমন কোনো ছবি বা মন্তব্য আপলোড করবেন না। লিখিত মন্তব্য বা ছবির মাধ্যমে কাউকে ব্যক্তিগত আক্রমণও নিষিদ্ধ।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঙ. ব্যবহারকারীদের ডিভাইসের সুরক্ষা</h3>
+                            <!-- text -->
+                            <p class="content__block_text">দর্শক/ পাঠকদের ডিভাইসের সুরক্ষার জন্য তাদের নিজস্ব সতর্কতা ও সুরক্ষাব্যবস্থা গ্রহণ করা প্রয়োজন। কারণ কোনো ভাইরাস, ম্যালওয়্যার বা অন্য কোনো ধরনের ক্ষতিকর কিছু দ্বারা আপনার ডিভাইস বা যন্ত্র আক্রান্ত হলে বা ক্ষতির শিকার হলে তার কোনো দায় আওয়ার বাংলাদেশ গ্রহণ করে না বলে স্পষ্ট জানিয়ে দিচ্ছে। তৃতীয় পক্ষের কোনো কনটেন্টে প্রবেশের কারণে বা তৃতীয় পক্ষ থেকে আসা কোনো ভাইরাস বা ক্ষতিকর উপাদান দ্বারা ব্যবহারকারীর ডিভাইস বা যন্ত্র আক্রান্ত বা ক্ষতির শিকার হলে, তার কোনো দায় আওয়ার বাংলাদেশ কোনোভাবেই নেয় না। তৃতীয় পক্ষের কনটেন্টের মধ্যে গুগল থেকে আসা বিজ্ঞাপনের কথা উল্লেখ করা যায়। তবে এটি শুধু এর মধ্যে সীমাবদ্ধ নয়। আওয়ার বাংলাদেশর তৈরি করা নয় এমন যেকোনো কনটেন্টই তৃতীয় পক্ষের কনটেন্ট হিসেবে বিবেচিত। এ ক্ষেত্রে এগুলো আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশনে প্রকাশিত হচ্ছে কি না, তা বিবেচ্য নয়।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">চ. প্রতীক, কনটেন্ট, ছবি ইত্যাদি শেয়ার করা নিষিদ্ধ</h3>
+                            <!-- text -->
+                            <p class="content__block_text">উদ্দেশ্য বাণিজ্যিক হোক বা না হোক, আওয়ার বাংলাদেশয় ব্যবহৃত কোনো প্রতীক, ছবি বা কনটেন্ট ব্যবহার করা যাবে না। কোনো ছবি, প্রতীক বা কনটেন্ট ব্যবহারের অনুমতি পেলে তা এমনভাবে ব্যবহার করতে হবে, অর্থাৎ আওয়ার বাংলাদেশর নাম ও ক্রেডিট এমনভাবে শেয়ার করতে হবে, যাতে আওয়ার বাংলাদেশর স্বত্ব সুস্পষ্টভাবে দৃশ্যমান হয়। আওয়ার বাংলাদেশয় ব্যবহৃত ছবি বা যেকোনো কনটেন্ট শেয়ার বা প্রকাশের সময় এর স্বত্ব নিজের বলে দাবি করাটা সম্পূর্ণভাবে নিষিদ্ধ।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ছ. অন্য ওয়েবসাইটে পুনর্নির্দেশ</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশন ব্যবহারের সময় অন্য কোনো ওয়েবসাইটে যদি কোনো ব্যবহারকারীকে রিডিরেক্ট বা পুনর্নির্দেশ করা হয়, তবে তার কোনো দায়ভার আওয়ার বাংলাদেশ নেবে না।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">জ. তৃতীয় পক্ষের কনটেন্ট</h3>
+                            <!-- text -->
+                            <p class="content__block_text">তৃতীয় পক্ষের কোনো কনটেন্টের দায় আওয়ার বাংলাদেশ নেবে না। তৃতীয় পক্ষের কনটেন্ট হলো এমন কনটেন্ট, যা আওয়ার বাংলাদেশর তৈরি করা নয়। এর মধ্যে রয়েছে ছবি, টেক্সট, অডিও, ভিডিওসহ নানা ধরনের কনটেন্ট, যা আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশনে প্রদর্শিত বা আপলোড করা আছে, কিন্তু যা আওয়ার বাংলাদেশর নয়, অন্য কোনো ব্যক্তি বা প্রতিষ্ঠান বা সত্তার তৈরি।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঝ. গোপনীয়তার নীতি</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ তার নীতিমালায় থাকা যেকোনো শর্ত যেকোনো সময় বাতিল, পরিবর্তন বা সংস্কার বা সংশোধন বা এতে সংযোজন ও বিয়োজনের সব অধিকার রাখে। তবে সে ক্ষেত্রে পরিবর্তিত নীতিটি দ্রুততম সময়ে আপলোড বা আপডেট করে দেওয়া হবে। এমন কোনো পরিবর্তন বা সংশোধনের পর কোনো পাঠক/ দর্শক বা ব্যবহারকারী আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশন ব্যবহার করলে তিনি আমাদের পরিবর্তিত নীতিমালায় সম্মত হয়েছেন এবং তা মেনে চলবেন বলে ধরে নেওয়া হবে। তাই কিছুদিন পরপরই আমাদের নীতিমালা দেখে নেওয়ার জন্য পাঠকদের উৎসাহিত করি, যাতে পাঠক বুঝতে পারেন আমরা তাঁর কাছ থেকে কী তথ্য সংগ্রহ করি, কীভাবে এগুলো ব্যবহার করি এবং কার সঙ্গে ভাগাভাগি করি।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঞ. বিজ্ঞাপন</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর ওয়েবসাইট ও মোবাইল অ্যাপ্লিকেশনে প্রদর্শিত বিজ্ঞাপনগুলো মূলত তৃতীয় পক্ষের। এসব প্রতিষ্ঠান যদি ব্যবহারকারীর তথ্য সংগ্রহ করে এবং সংগৃহীত তথ্য অন্য কারও সঙ্গে শেয়ার করে, তবে তার জন্য আওয়ার বাংলাদেশ দায়ী নয়। আওয়ার বাংলাদেশয় প্রকাশিত কোনো বিজ্ঞাপনে থাকা কোনো কনটেন্টের কোনো দায়ও আওয়ার বাংলাদেশ নেবে না।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ট. গোপনীয়তার নীতি পরিবর্তন</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ তার নীতিমালায় থাকা যেকোনো শর্ত যেকোনো সময় বাতিল, পরিবর্তন বা সংস্কার বা সংশোধন বা এতে সংযোজন ও বিয়োজনের সব অধিকার রাখে। তবে সে ক্ষেত্রে পরিবর্তিত নীতিটি দ্রুততম সময়ে আপলোড বা আপডেট করে দেওয়া হবে। এমন কোনো পরিবর্তন বা সংশোধনের পর কোনো পাঠক/ দর্শক বা ব্যবহারকারী আওয়ার বাংলাদেশর ওয়েবসাইট বা অ্যাপ্লিকেশন ব্যবহার করলে তিনি আমাদের পরিবর্তিত নীতিমালায় সম্মত হয়েছেন এবং তা মেনে চলবেন বলে ধরে নেওয়া হবে। তাই কিছুদিন পরপরই আমাদের নীতিমালা দেখে নেওয়ার জন্য পাঠকদের উৎসাহিত করি, যাতে পাঠক বুঝতে পারেন আমরা তাঁর কাছ থেকে কী তথ্য সংগ্রহ করি, কীভাবে এগুলো ব্যবহার করি এবং কার সঙ্গে ভাগাভাগি করি।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঠ. কুকিজের ব্যবহার</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ কুকিজের ওপর ভিত্তি করে কোনো ব্যবহারকারীর ব্যক্তিগত তথ্য সংগ্রহ করে না, জমাও রাখে না। আবার আওয়ার বাংলাদেশ ওয়েবসাইটের সঙ্গে যুক্ত কোনো তৃতীয় পক্ষ কুকিজের মাধ্যমে তথ্য সংগ্রহ করলে তা নিয়ন্ত্রণও করে না। সুতরাং, তৃতীয় পক্ষের ওয়েবসাইটে প্রবেশের আগে ভালোভাবে দেখে নিন।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ড. আওয়ার বাংলাদেশর পক্ষ থেকে যোগাযোগ</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ আয়োজিত কোনো ইভেন্ট, প্রচার কার্যক্রম, প্রতিযোগিতা, প্রতিক্রিয়া বা জরিপে আমন্ত্রণ জানাতে মাঝেমধ্যে ই-মেইল বা ফোন নম্বরে এসএমএস পাঠিয়ে আমরা পাঠকের সঙ্গে যোগাযোগ করতে পারি।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ঢ. ব্যবহারকারীদের তৈরি কনটেন্ট</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ ব্যবহারকারীরা মন্তব্য ও ছবিসহ বিভিন্ন কনটেন্ট পোস্ট করতে পারবেন। এ ক্ষেত্রে ছবিসহ যেকোনো কনটেন্ট আপলোডের সময় ব্যবহারকারীকেই নিশ্চিত করতে হবে যে সংশ্লিষ্ট কনটেন্টটির মালিকানা তাঁর নিজের বা অন্যের হলে মালিকের কাছ থেকে এটি প্রকাশের অনুমতি নেওয়া হয়েছে। একই সঙ্গে সংশ্লিষ্ট কনটেন্টটি অশ্লীল, হয়রানিমূলক, প্রতারণামূলক, আপত্তিকর, মানহানিকর, জালিয়াতিমূলক, অবৈধ বা অন্যের গোপনীয়তা লঙ্ঘন করে—এমন তথ্য দেওয়াকে আওয়ার বাংলাদেশ সমর্থন করে না। আওয়ার বাংলাদেশ তার ব্যবহারকারীদের সৃষ্ট কোনো কনটেন্টের দায় যেমন নেয় না, তেমনি এর বস্তুনিষ্ঠতা, যথার্থতা ও বিশ্বাসযোগ্যতা সম্পর্কেও কোনো নিশ্চয়তা দেয় না।</p>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ ওয়েবসাইট ব্যবহারের সময় এর পাঠক/ দর্শক বা ব্যবহারকারীরা নিম্নোক্ত বিষয়গুলোতে আগেই সম্মত হয়েছেন বলে ধরে নেওয়া হয়—</p>
+                            <!-- list -->
+                            <div class="content__block_list">
+                                <ul>
+                                    <li>ইচ্ছাকৃতভাবে অন্য পাঠকদের বিচলিত বা ক্ষতিগ্রস্ত করার উদ্দেশ্যে কিছু পোস্ট করা যাবে না।</li>
+                                    <li>কোনো সীমাবদ্ধতা, ধর্ম, লিঙ্গ, বর্ণ, জাতি, নৃতাত্ত্বিক পরিচয়, নাগরিকত্ব, বয়স, বৈবাহিক অবস্থা, সামরিক অবস্থান বা অক্ষমতার ভিত্তিতে যেকোনো ব্যক্তি বা গোষ্ঠীকে অসম্মান, অপমান, হয়রানি, খাটো করে বা ভীতিকর পরিস্থিতি সৃষ্টি হয়, এমন পোস্ট করা যাবে না বা এই উদ্দেশ্যে আওয়ার বাংলাদেশর কোনো কনটেন্ট ব্যবহার করা যাবে না।</li>
+                                    <li>আওয়ার বাংলাদেশর ওয়েবসাইট বা কোনো কম্পিউটার সফটওয়্যার, হার্ডওয়্যার বা টেলিযোগাযোগ সরঞ্জামের কার্যকারিতা বাধাগ্রস্ত, ধ্বংস বা সীমাবদ্ধ করতে পারে এমন সফটওয়্যার ভাইরাস, কম্পিউটার কোড, ফাইল বা প্রোগ্রাম পোস্ট করা যাবে না।</li>
+                                    <li>অপরাধমূলক কাজ বা সামাজিক দায়বদ্ধতা নষ্ট হওয়ার পরিস্থিতি সৃষ্টি বা উসকে দিতে পারে, এমন কোনো মন্তব্য বা ছবি আপলোড বা আদান-প্রদান করা যাবে না।</li>
+                                </ul>
+                            </div>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ চাইলে যেকোনো সময় ওয়েবসাইট থেকে যে কারও যেকোনো ধরনের কনটেন্ট বিনা নোটিশে সরিয়ে বা মুছে ফেলার অধিকার সংরক্ষণ করে। আওয়ার বাংলাদেশ সাধারণত ওয়েবসাইটের বিষয়বস্তু ফিল্টার করে এবং এ প্রক্রিয়ায় কোনো আপত্তিকর, অপ্রীতিকর বা বিরক্তিকর মন্তব্য বা ছবি প্রকাশিত হলে এর দায় আওয়ার বাংলাদেশ স্বীকার করবে না। আপত্তিকর, অনুচিত ও অযাচিত কোনো আচরণ রোধ করতে আওয়ার বাংলাদেশ সংশ্লিষ্টদের ব্যক্তিগত তথ্য ব্যবহার করতে পারে।
+                            </p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ণ. দেশের বাইরে থেকে ওয়েবসাইটে প্রবেশ</h3>
+                            <!-- text -->
+                            <p class="content__block_text">দেশের বাইরে থেকে ওয়েবসাইটে প্রবেশ করতে ব্যবহারকারীরা যেসব তথ্য প্রদান করবেন, সেগুলো প্রদত্ত শর্তাবলি বা নীতিমালা ও গোপনীয়তার নীতি অনুসারে প্রক্রিয়া করা হবে।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ত. কৈফিয়ত</h3>
+                            <!-- text -->
+                            <p class="content__block_text">ব্যবহারকারীদের সবচেয়ে ভালো সেবা প্রদান করাই আওয়ার বাংলাদেশর লক্ষ্য। তবে এ ক্ষেত্রে সকল ছবি/ ভিডিওর মতো মাল্টিমিডিয়ার সব সামগ্রীর পরিষেবা প্রদত্ত সমস্ত তথ্য সর্বদা নির্ভুল থাকবে—এই প্রতিশ্রুতি আওয়ার বাংলাদেশ দিচ্ছে না/ দিতে পারবে না। আওয়ার বাংলাদেশর কনটেন্টগুলো শুধু তথ্যের উদ্দেশ্যেই করা এবং এটি কোনো পরামর্শ দেওয়ার দায়িত্ব নেয় না। আওয়ার বাংলাদেশর সকল সেবা কোনো গ্যারান্টি/ ওয়ারেন্টি ছাড়াই প্রদান করা হবে।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">থ. পোস্ট করা ও কনটেন্ট দেখা</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর সকল পাঠক এ বিষয়ে সম্মতি দেন যে যখন তাঁরা আওয়ার বাংলাদেশয় কোনো কনটেন্ট পোস্ট করবেন অথবা অন্যের পোস্ট করা কোনো কনটেন্ট দেখবেন, তার সঠিকতা ও সত্যাসত্য যাচাইয়ের মানদণ্ড ও ঝুঁকি পাঠকের নিজেরই। কিছু কিছু ক্ষেত্রে আওয়ার বাংলাদেশ তৃতীয় পক্ষ থেকেও তথ্য সরবরাহ করে। আওয়ার বাংলাদেশ তৃতীয় পক্ষের কনটেন্টের ওপর নিয়ন্ত্রণ রাখে না এবং এ বিষয়ে কোনো নিশ্চয়তাও দেয় না। আওয়ার বাংলাদেশর নিজস্ব অথবা তৃতীয় পক্ষের কোনো কনটেন্টের তথ্যের ওপর নির্ভর করার আগে আওয়ার বাংলাদেশ এই মর্মে পরামর্শ দিচ্ছে যে, অবশ্যই সেই তথ্যের সত্যতা ও গ্রহণযোগ্যতা যাচাই করে নেবেন।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">দ. ওয়েবসাইট বা অ্যাপ্লিকেশনে প্রবেশে বাধা, ক্রস কানেকশন বা খুঁজে না পাওয়া</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশ সার্বক্ষণিক সেবা চালু রাখার সর্বাত্মক চেষ্টায় বদ্ধপরিকর। তবে আওয়ার বাংলাদেশর আওতা বা নিয়ন্ত্রণের বাইরে থাকা কোনো কারণে (ইন্টারনেটের যান্ত্রিক ত্রুটি) ব্যবহারকারীরা যদি ওয়েবসাইট বা অ্যাপ্লিকেশন ব্যবহারে কোনো সমস্যার সম্মুখীন হন অথবা সাময়িক বাধাগ্রস্ত হন, তার জন্য আওয়ার বাংলাদেশ দায়ী থাকবে না। অথবা তৃতীয় পক্ষের কোনো কনটেন্ট ডাউনলোড বা এমন কিছুতে অংশ নেওয়া থেকে উদ্ভূত যেকোনো সমস্যার জন্যও আওয়ার বাংলাদেশ কোনো দায় নেবে না। আওয়ার বাংলাদেশর সেবা গ্রহণ করতে গিয়ে অথবা ওয়েবসাইটে কোনো কনটেন্ট পোস্ট করতে গিয়ে কোনো ক্ষতির সম্মুখীন হলে তার দায়ও আওয়ার বাংলাদেশর নয়।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ধ. অনুসৃত বিধি</h3>
+                            <!-- text -->
+                            <p class="content__block_text">আওয়ার বাংলাদেশর নীতিমালা ও ব্যবহারকারীদের সঙ্গে এর সম্পর্কের ধরন নিরূপণে উল্লিখিত বিধিগুলো বাংলাদেশের আইন অনুসারে তৈরি করা হয়েছে। এ নিয়ে যেকোনো বিতর্ক বা বিরোধ, এর তথ্য বা তারিখের ব্যবহার, ধরন, প্রকাশ, ফাঁস বা প্রচার সম্পর্কিত যেকোনো বিরোধ কেবল বিরোধ নিষ্পত্তি আইন, ২০০১-এ বর্ণিত আইন অনুসারে হবে। বিরোধ নিষ্পত্তির স্থান হবে বাংলাদেশে ঢাকা এবং এ সম্পর্কিত বিচারসভা তিন সদস্যের হতে হবে। এ বিষয়ে বাংলাদেশের আদালতে স্বতন্ত্র বিচারের ক্ষমতা থাকবে। অবস্থান, জাতীয়তা, বাসস্থান, ব্যবসার স্থান বা কর্মস্থল-নির্বিশেষে আওয়ার বাংলাদেশর ওয়েবসাইট ব্যবহারকারী বা এর যেকোনো সেবা বা এর অ্যাপ্লিকেশন ব্যবহার করা প্রত্যেকেই এই নীতিমালার আওতাভুক্ত বলে বিবেচিত হবেন।</p>
+                            <!-- title -->
+                            <h3 class="content__block_title">ন. সংযোগ-বিচ্ছিন্নের পদ্ধতি</h3>
+                            <!-- text -->
+                            <p class="content__block_text">যদি কোনো সময়ে ব্যবহারকারীরা আমাদের কাছ থেকে বিপণনের তথ্যসংবলিত ই-মেইল গ্রহণের ক্ষেত্রে আগ্রহী না হন, তবে ব্যবহারকারীরা প্রতিটি ই-মেইলের নিচে প্রদত্ত সদস্য বাতিলের প্রক্রিয়া অনুসরণ করতে পারেন। যদি ব্যবহারকারীরা নিবন্ধিত অ্যাকাউন্ট আর না রাখতে চান, তবে তাঁরা নিম্নলিখিত ঠিকানায় ই-মেইল প্রেরণ করে অ্যাকাউন্টটি বন্ধ করতে পারেন। [info@ourbangladesh.com]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- main end -->
+
+        <!-- footer section -->
+        <footer class="footer_section section_padding">
+            <div class="container">
+                <div class="footer_wrapper">
+                    <div class="row gy-4">
+                        <div class="col-lg-4">
+                            <div class="footer_block">
+                                <!-- logo -->
+                                <div class="footer_logo">
+                                    <a href="./details.html">
+                                        <img src="assets/image/logo.svg" alt="">
+                                    </a>
+                                </div>
+    
+                                <div class="logo_content">
+                                    <!-- text -->
+                                    <h1 class="logo_name">প্রকাশক ও সম্পাদক</h1>
+                                    <p class="logo_text"> জনাব আলহাজ্ব মুক্তার হোসেন গাজী।</p>
+                                    <p class="logo_text">
+                                        মুগ্ধ মিডিয়া (এমএম) লিমিটেডের একটি প্রতিষ্ঠান।
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row gy-4">
+                                <div class="col-md-4">
+                                    <div class="footer_nav">
+                                        <ul>
+                                            <li>
+                                                <a href="./about.html">আওয়ার বাংলাদেশ</a>
+                                            </li>
+                                            <li>
+                                                <a href="./contact.html">যোগাযোগ</a>
+                                            </li>
+                                            <li>
+                                                <a href="./details.html">ই-পেপার</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="footer_nav">
+                                        <ul>
+                                            <li>
+                                                <a href="./add.html">বিজ্ঞাপন</a>
+                                            </li>
+                                            <li>
+                                                <a href="./circulation.html">সার্কুলেশন</a>
+                                            </li>
+                                            <li>
+                                                <a href="./termcondition.html">নীতিমালা</a>
+                                            </li>
+                                            <li>
+                                                <a href="./privecy.html">গোপনীয়তার নীতি</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="footer_nav">
+                                        <ul>
+                                            <li>
+                                                <a href="./details.html"> <span>মোবাইল:</span> ০১৭৭৬৫৬৮৪৮৭,০১৭৪৩৪৬৩৩৩৩</a>
+                                            </li>
+                                            <li>
+                                                <a href="./details.html"> <span>ফোন:</span> ০২৪৭১১১২৮৮</a>
+                                            </li>
+                                            <li>
+                                                <a href="./details.html"> <span>ইমেইল:</span> dailyourbangladesh2023@gmail.com</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- socket -->
+            <div class="socket">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 order-lg-2">
+                            <div class="header_social">
+                                <ul class="d-flex align-items-center justify-content-lg-end flex-wrap">
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-youtube"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="./details.html"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 order-lg-1">
+                            <div class="copyright">
+                                <strong> &copy; <span id="socket_year"></span> আওয়ার বাংলাদেশ | ডেভেলপমেন্ট বাই: <a href="https://classicit.com.bd/" target="_blank">ক্লাসিক আইটি</a></strong>
+                            </div>
+                            <p class="footer_address">বার্তা ও বাণিজ্যিক কার্যালয়:লেভেল-৫,বি-২, ইত্তেফাক ভবন,  ১ রামকৃষ্ণ মিশন রোড, ওয়ারী, ঢাকা -১২০৩।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section end -->
+
+        <!-- jquery link -->
+        <script src="assets/js/jquery.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- slick slider -->
+        <script src="assets/js/slick.min.js"></script>
+        <!-- splide js -->
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+        <!-- main js -->
+        <script src="assets/js/app.js"></script>
+        
+    </body>
+
+</html>
